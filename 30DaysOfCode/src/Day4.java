@@ -4,7 +4,7 @@ import java.util.*;
 public class Day4 {
     private int age;
 
-    public Person(int initialAge) {
+    public Day4(int initialAge) { //change Day4 to Person
         // Add some more code to run some checks on initialAge
         if (initialAge < 0) {
             System.out.println("Age is not valid, setting age to 0.");
